@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		199BA08B20A98C7A00F29CF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BA08A20A98C7A00F29CF8 /* main.m */; };
 		19EA5BFE20B698F600116106 /* Nics.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA5BFD20B698F600116106 /* Nics.m */; };
+		19EA5C0120B6B4F600116106 /* Hias.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA5C0020B6B4F600116106 /* Hias.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		199BA08A20A98C7A00F29CF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19EA5BFC20B698F600116106 /* Nics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nics.h; sourceTree = "<group>"; };
 		19EA5BFD20B698F600116106 /* Nics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nics.m; sourceTree = "<group>"; };
+		19EA5BFF20B6B4F600116106 /* Hias.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hias.h; sourceTree = "<group>"; };
+		19EA5C0020B6B4F600116106 /* Hias.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hias.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				199BA08A20A98C7A00F29CF8 /* main.m */,
 				19EA5BFC20B698F600116106 /* Nics.h */,
 				19EA5BFD20B698F600116106 /* Nics.m */,
+				19EA5BFF20B6B4F600116106 /* Hias.h */,
+				19EA5C0020B6B4F600116106 /* Hias.m */,
 			);
 			path = char;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19EA5C0120B6B4F600116106 /* Hias.m in Sources */,
 				19EA5BFE20B698F600116106 /* Nics.m in Sources */,
 				199BA08B20A98C7A00F29CF8 /* main.m in Sources */,
 			);
