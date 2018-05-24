@@ -34,7 +34,8 @@ int main(int argc, const char * argv[]) {
 
 
 
-
+        NSLog(@"%p", obj);
+        NSLog(@"%p", &obj);
         
     }
     return 0;
