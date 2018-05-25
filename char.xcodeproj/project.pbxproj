@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		199BA08B20A98C7A00F29CF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BA08A20A98C7A00F29CF8 /* main.m */; };
+		19EA5C0720B80A1000116106 /* Hias.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA5C0520B80A1000116106 /* Hias.m */; };
+		19EA5C0820B80A1000116106 /* Nics.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA5C0620B80A1000116106 /* Nics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		199BA08720A98C7A00F29CF8 /* char */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = char; sourceTree = BUILT_PRODUCTS_DIR; };
 		199BA08A20A98C7A00F29CF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19EA5C0320B80A0F00116106 /* Nics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nics.h; sourceTree = "<group>"; };
+		19EA5C0420B80A0F00116106 /* Hias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hias.h; sourceTree = "<group>"; };
+		19EA5C0520B80A1000116106 /* Hias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hias.m; sourceTree = "<group>"; };
+		19EA5C0620B80A1000116106 /* Nics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				199BA08A20A98C7A00F29CF8 /* main.m */,
+				19EA5C0420B80A0F00116106 /* Hias.h */,
+				19EA5C0520B80A1000116106 /* Hias.m */,
+				19EA5C0320B80A0F00116106 /* Nics.h */,
+				19EA5C0620B80A1000116106 /* Nics.m */,
 			);
 			path = char;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19EA5C0720B80A1000116106 /* Hias.m in Sources */,
 				199BA08B20A98C7A00F29CF8 /* main.m in Sources */,
+				19EA5C0820B80A1000116106 /* Nics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
