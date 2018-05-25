@@ -9,5 +9,5 @@
 #import "Nics.h"
 
 @implementation Nics
-/*ssssssssss*/
+
 @end

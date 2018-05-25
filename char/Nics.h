@@ -12,5 +12,4 @@
 /*ssssssssss*/
 
 - (void)nicsMin;
-
 @end
