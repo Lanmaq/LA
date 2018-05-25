@@ -10,6 +10,4 @@
 
 @interface Hias : NSObject
 
-- (void)hiasMax;
-
 @end
