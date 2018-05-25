@@ -10,4 +10,7 @@
 
 @interface Nics : NSObject
 /*ssssssssss*/
+
+- (void)nicsMin;
+
 @end
